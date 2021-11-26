@@ -1,0 +1,28 @@
+{
+  "name": "rbx-asset-manager",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec \"rbxasset test\""
+  },
+  "bin": {
+    "rbxasset": "./bin/rbxasset.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emre1791/rbx-asset-manager.git"
+  },
+  "author": "Emre Aksoy (emre1791)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emre1791/rbx-asset-manager/issues"
+  },
+  "homepage": "https://github.com/emre1791/rbx-asset-manager#readme",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.16.1",
+    "path": "^0.12.7"
+  }
+}
