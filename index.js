@@ -69,7 +69,7 @@ const onEvent = async (
           join(versionPath, folderName, `content-${contentHash}`)
         );
         mapJson[
-          relativePath.split(".").slice(0, -1).join(".")
+          relativePath.split(".").slice(0, -1).join(".").replace(/\\/g, "/")
         ] = `rbxasset://${folderName}/content-${contentHash}`;
 
         writeFileSync(jsonFile, JSON.stringify(mapJson));
