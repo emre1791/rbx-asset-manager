@@ -1,0 +1,224 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Part" referent="RBX1AACE8B0EB474F559047413DE94896CF">
+		<Properties>
+			<bool name="Anchored">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="BackParamA">-0.5</float>
+			<float name="BackParamB">0.5</float>
+			<token name="BackSurface">0</token>
+			<token name="BackSurfaceInput">0</token>
+			<float name="BottomParamA">-0.5</float>
+			<float name="BottomParamB">0.5</float>
+			<token name="BottomSurface">0</token>
+			<token name="BottomSurfaceInput">0</token>
+			<CoordinateFrame name="CFrame">
+				<X>-34.5748901</X>
+				<Y>5.26844168</Y>
+				<Z>52.0140381</Z>
+				<R00>0</R00>
+				<R01>1</R01>
+				<R02>0</R02>
+				<R10>1</R10>
+				<R11>0</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>-1</R22>
+			</CoordinateFrame>
+			<bool name="CanCollide">false</bool>
+			<bool name="CanQuery">true</bool>
+			<bool name="CanTouch">false</bool>
+			<bool name="CastShadow">false</bool>
+			<int name="CollisionGroupId">0</int>
+			<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+			<PhysicalProperties name="CustomPhysicalProperties">
+				<CustomPhysics>false</CustomPhysics>
+			</PhysicalProperties>
+			<float name="FrontParamA">-0.5</float>
+			<float name="FrontParamB">0.5</float>
+			<token name="FrontSurface">0</token>
+			<token name="FrontSurfaceInput">0</token>
+			<float name="LeftParamA">-0.5</float>
+			<float name="LeftParamB">0.5</float>
+			<token name="LeftSurface">0</token>
+			<token name="LeftSurfaceInput">0</token>
+			<bool name="Locked">false</bool>
+			<bool name="Massless">false</bool>
+			<token name="Material">256</token>
+			<string name="Name">ObjectDestroyedParticles</string>
+			<CoordinateFrame name="PivotOffset">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<float name="Reflectance">0</float>
+			<float name="RightParamA">-0.5</float>
+			<float name="RightParamB">0.5</float>
+			<token name="RightSurface">0</token>
+			<token name="RightSurfaceInput">0</token>
+			<int name="RootPriority">0</int>
+			<Vector3 name="RotVelocity">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<float name="TopParamA">-0.5</float>
+			<float name="TopParamB">0.5</float>
+			<token name="TopSurface">0</token>
+			<token name="TopSurfaceInput">0</token>
+			<float name="Transparency">1</float>
+			<Vector3 name="Velocity">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<token name="formFactorRaw">1</token>
+			<token name="shape">1</token>
+			<Vector3 name="size">
+				<X>10.5368834</X>
+				<Y>12.5428944</Y>
+				<Z>19.0068817</Z>
+			</Vector3>
+		</Properties>
+		<Item class="ParticleEmitter" referent="RBX812F90169E5F4EC39AF39AC5E0943F06">
+			<Properties>
+				<Vector3 name="Acceleration">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="Brightness">1</float>
+				<ColorSequence name="Color">0 1 1 1 0 1 1 1 1 0 </ColorSequence>
+				<float name="Drag">0</float>
+				<token name="EmissionDirection">5</token>
+				<bool name="Enabled">true</bool>
+				<NumberRange name="Lifetime">3 3 </NumberRange>
+				<float name="LightEmission">1</float>
+				<float name="LightInfluence">1</float>
+				<bool name="LockedToPart">true</bool>
+				<string name="Name">Particles</string>
+				<token name="Orientation">0</token>
+				<float name="Rate">40</float>
+				<NumberRange name="RotSpeed">80 80 </NumberRange>
+				<NumberRange name="Rotation">0 0 </NumberRange>
+				<token name="Shape">0</token>
+				<token name="ShapeInOut">0</token>
+				<float name="ShapePartial">1</float>
+				<token name="ShapeStyle">0</token>
+				<NumberSequence name="Size">0 0 0 0.21197 0.37037 0 0.448878 0.185185 0 0.689526 0.185185 0 0.877806 0.493827 0 0.927681 0.0617284 0 1 0 0 </NumberSequence>
+				<int64 name="SourceAssetId">-1</int64>
+				<NumberRange name="Speed">2 2 </NumberRange>
+				<Vector2 name="SpreadAngle">
+					<X>300</X>
+					<Y>300</Y>
+				</Vector2>
+				<NumberSequence name="Squash">0 0 0 1 0 0 </NumberSequence>
+				<BinaryString name="Tags"></BinaryString>
+				<Content name="Texture"><url>rbxassetid://298984512</url></Content>
+				<float name="TimeScale">1</float>
+				<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+				<float name="VelocityInheritance">0</float>
+				<float name="ZOffset">0</float>
+			</Properties>
+		</Item>
+		<Item class="ParticleEmitter" referent="RBXEC47F2D38D8542A38A395A4C5CACADA3">
+			<Properties>
+				<Vector3 name="Acceleration">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="Brightness">1</float>
+				<ColorSequence name="Color">0 1 1 1 0 1 1 1 1 0 </ColorSequence>
+				<float name="Drag">0</float>
+				<token name="EmissionDirection">5</token>
+				<bool name="Enabled">true</bool>
+				<NumberRange name="Lifetime">0.4 0.4 </NumberRange>
+				<float name="LightEmission">1</float>
+				<float name="LightInfluence">1</float>
+				<bool name="LockedToPart">true</bool>
+				<string name="Name">Particles</string>
+				<token name="Orientation">0</token>
+				<float name="Rate">25</float>
+				<NumberRange name="RotSpeed">0 0 </NumberRange>
+				<NumberRange name="Rotation">-1080 1080 </NumberRange>
+				<token name="Shape">0</token>
+				<token name="ShapeInOut">0</token>
+				<float name="ShapePartial">1</float>
+				<token name="ShapeStyle">0</token>
+				<NumberSequence name="Size">0 0.8 0 1 0 0 </NumberSequence>
+				<int64 name="SourceAssetId">-1</int64>
+				<NumberRange name="Speed">0 0 </NumberRange>
+				<Vector2 name="SpreadAngle">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<NumberSequence name="Squash">0 0 0 1 0 0 </NumberSequence>
+				<BinaryString name="Tags"></BinaryString>
+				<Content name="Texture"><url>rbxassetid://483023587</url></Content>
+				<float name="TimeScale">1</float>
+				<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+				<float name="VelocityInheritance">0</float>
+				<float name="ZOffset">1</float>
+			</Properties>
+		</Item>
+		<Item class="ParticleEmitter" referent="RBX802D7EE90B754146B1FF5F87D0096D7F">
+			<Properties>
+				<Vector3 name="Acceleration">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="Brightness">1</float>
+				<ColorSequence name="Color">0 1 1 1 0 1 1 1 1 0 </ColorSequence>
+				<float name="Drag">0</float>
+				<token name="EmissionDirection">5</token>
+				<bool name="Enabled">true</bool>
+				<NumberRange name="Lifetime">0.2 0.2 </NumberRange>
+				<float name="LightEmission">1</float>
+				<float name="LightInfluence">0</float>
+				<bool name="LockedToPart">true</bool>
+				<string name="Name">Particles</string>
+				<token name="Orientation">0</token>
+				<float name="Rate">100</float>
+				<NumberRange name="RotSpeed">0 0 </NumberRange>
+				<NumberRange name="Rotation">-1080 1080 </NumberRange>
+				<token name="Shape">0</token>
+				<token name="ShapeInOut">0</token>
+				<float name="ShapePartial">1</float>
+				<token name="ShapeStyle">0</token>
+				<NumberSequence name="Size">0 1.4 0 1 0 0 </NumberSequence>
+				<int64 name="SourceAssetId">-1</int64>
+				<NumberRange name="Speed">0 0 </NumberRange>
+				<Vector2 name="SpreadAngle">
+					<X>1</X>
+					<Y>1</Y>
+				</Vector2>
+				<NumberSequence name="Squash">0 0 0 1 0 0 </NumberSequence>
+				<BinaryString name="Tags"></BinaryString>
+				<Content name="Texture"><url>rbxassetid://483102357</url></Content>
+				<float name="TimeScale">1</float>
+				<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+				<float name="VelocityInheritance">0</float>
+				<float name="ZOffset">0</float>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
